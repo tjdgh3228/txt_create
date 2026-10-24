@@ -1,9 +1,9 @@
 {
   "redirects": [
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "has": [{ "type": "host", "value": "txtcreater.vercel.app" }],
-      "destination": "https://txt-create.vercel.app/:path*",
+      "destination": "https://txt-create.vercel.app/$1",
       "permanent": true
     }
   ]
