@@ -3,7 +3,13 @@
     {
       "source": "/(.*)",
       "has": [{ "type": "host", "value": "txtcreater.vercel.app" }],
-      "destination": "https://txt-create.vercel.app/$1",
+      "destination": "https://make-txt-msh.vercel.app/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "txt-create.vercel.app" }],
+      "destination": "https://make-txt-msh.vercel.app/$1",
       "permanent": true
     }
   ]
